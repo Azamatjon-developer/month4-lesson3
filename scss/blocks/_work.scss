@@ -36,7 +36,9 @@ nav {
 
 @media (max-width: 800px) {
 
-    .blog{
+    .blog_desc{
+        justify-content: center;
+        align-items: center;
         h2{
             font-size: 30px;
             padding-bottom: 20px;
@@ -50,11 +52,14 @@ nav {
     
 }
 
-@media (max-width: 475px) {
+@media (max-width: 500px) {
 
-    .blog{
+    .blog_desc{
+        text-align: center;
+        padding: 20px;
+
         h2{
-            font-size: 20px;
+            font-size: 26px;
             padding-bottom: 10px;
 
         }
